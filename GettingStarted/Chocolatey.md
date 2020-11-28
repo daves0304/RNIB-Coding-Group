@@ -1,8 +1,14 @@
-# Getting Started
+# Chocolatey
 
-## Windows 10
+[Chocolatey Website](https://chocolatey.org/)
 
-### Enabling Powershell
+[Chocolatey Wikipediia](https://en.wikipedia.org/wiki/NuGet#Chocolatey)
+
+## Summary
+
+Chocolatey is, although a more complicated package manager to get running than Ninite, it has far more packages available to install.
+
+## Enabling Powershell
 
 PowerShell is a good way to getting to be used to get your windows computer setup for coding.
 
@@ -21,11 +27,10 @@ To enable powershell for the current logged in user only:
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 ```
 
-To enable powersheel for all users logged in to the computer:
+To enable powershell for all users logged in to the computer:
 ```powershell
 Set-ExecutionPolicy Unrestricted -Scope LocalMachine -Force
 ```
-
 ### Installing Packages
 
 In this directory there are an "install.ps1" script file along side an example "packages.txt" file.
@@ -37,3 +42,5 @@ Available packages can be found at [chocolatey.org](https://chocolatey.org/).
 The install.ps1 script can be executed from powershell (as an administrator) to install all of the packages in the packages.txt file.
 
 ### Configuring Packages
+
+- [ ] TODO: Look at how to do this.
